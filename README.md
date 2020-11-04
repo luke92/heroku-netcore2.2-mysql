@@ -1,5 +1,5 @@
 # heroku-netcore2.2-mysql
-NET CORE 2.2 Web API with Basic Authentication with MySQL pushed to Heroku
+NET CORE 2.2 Web API with Basic Authentication with MySQL pushed to Heroku using Docker
 
 # DEMO
 https://web-api-netcore-22-mysql-free.herokuapp.com/api/BancoNacion/GetQuotes
