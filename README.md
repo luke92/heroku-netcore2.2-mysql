@@ -1,5 +1,5 @@
 # heroku-netcore2.2-mysql
-NET CORE Web API 2.2 with MySQL pushed to Heroku
+NET CORE 2.2 Web API with Basic Authentication with MySQL pushed to Heroku
 
 # DEMO
 https://web-api-netcore-22-mysql-free.herokuapp.com/api/BancoNacion/GetQuotes
@@ -31,6 +31,11 @@ In project WebAPI
 - "dotnet tool install --global dotnet-ef" and "dotnet ef database update" or
 - use .sql in the repo
 
+# USO DE LA API
+- Use POSTMAN with Basic Authentication 
+- username: bna
+- password: 123456
+
 # Subir Aplicacion a Heroku
 
 ## 0) Crear cuenta en Heroku (y Docker por supuesto)
@@ -42,6 +47,8 @@ In project WebAPI
 - heroku container:login
 
 ## 2) Crear docker image y correrlo local (Puede que haya que modificar parte del dockerfile la parte final, ver archivos y comentarios)
+- dotnet build
+- dotnet run
 - docker build -t banco-nacion-webapi-mysql .
 - docker run -d -p 8080:80 --name abc banco-nacion-webapi-mysql
 
