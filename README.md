@@ -39,7 +39,7 @@ In project WebAPI
 # Subir Aplicacion a Heroku
 
 ## 0) Crear cuenta en Heroku (y Docker por supuesto)
-- Crear una aplicacion nueva de nombre web-api-netcore-22-mysql-free en Heroku (Vos no vas a poder porque la mia ya se llama asi jeje)
+- Crear una aplicacion nueva de nombre similar a web-api-netcore-22-mysql-free en Heroku
 
 ## 1) Comprobar y Loguear en Heroku
 - heroku --version
